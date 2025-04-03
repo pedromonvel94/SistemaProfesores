@@ -1,0 +1,15 @@
+Querty para crear la tabla
+
+CREATE TABLE `profesores` (
+	`id` INT(11) NULL DEFAULT NULL,
+	`nombre` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`apellido` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`fecha_nacimiento` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`genero` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`estatura` DOUBLE NULL DEFAULT NULL,
+	`peso` DOUBLE NULL DEFAULT NULL,
+	`materia` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci'
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+;

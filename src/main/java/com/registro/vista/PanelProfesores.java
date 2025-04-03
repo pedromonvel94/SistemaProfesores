@@ -4,6 +4,7 @@ import com.registro.controlador.GestorProfesores;
 import com.registro.modelo.Profesor;
 import com.registro.conexion.ConexionMySQL;
 
+//Ojo a estas librerias para crear la tabla.
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -19,6 +20,8 @@ public class PanelProfesores extends JFrame {
     // Campos del formulario
     private JTextField txtNombre, txtApellido, txtNacimiento, txtGenero, txtEstatura, txtPeso, txtMateria;
 
+
+    //Metodo para la construccion de la tabla
     public PanelProfesores() {
         setTitle("Gestión de Profesores");
         setSize(900, 500);
